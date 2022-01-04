@@ -1,0 +1,50 @@
+/****** Start Default Theme ******/
+
+* {
+  transition: all 0.6s ease-in-out;
+}
+
+.scroll-top i:hover,
+.navbar-brand span,
+.option-box .gear-check,
+.about h1 span,
+.features .h1 span,
+.features .col .glyphicon,
+.testim .h1 span,
+.testim span,
+.price-table .price-box:hover p,
+.subscribe .h1 span,
+.subscribe .form-inline ::-webkit-input-placeholder,
+.statistics .stats:hover i,
+.contact-us i:hover,
+.footer h3,
+.footer .copyright span::after {
+  color: #279d86;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #279d86;
+  border-bottom: 2px solid #fff;
+}
+
+.carousel-indicators .active,
+.dropdown-menu > li > a:hover {
+  background-color: #279d86;
+}
+
+
+.dropdown-menu {
+  border-top: 3px solid #279d86;
+}
+
+.option-box .color-box {
+  border: 1.7px solid #279d86;
+}
+
+.testim .carousel-indicators li.active {
+  border: 1px solid #279d86;
+}
+
+/****** End Default Theme ******/

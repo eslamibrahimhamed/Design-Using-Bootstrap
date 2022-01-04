@@ -1,0 +1,86 @@
+/* Mobile Screen*/
+
+@media (max-width: 767px) {
+  h1 {
+    color: indigo;
+    transition: all 2s ease-in-out;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    max-height: none;
+  }
+
+  .testim .carousel-indicators li {
+    width: 40px;
+    height: 40px;
+  }
+
+  .testim .carousel-indicators li.active {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer .work {
+    text-align: center;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .team-info {
+    text-align: center;
+  }
+}
+
+/* Small Screen */
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    color: #0895d1;
+    transition: all 2s ease-in-out;
+  }
+
+  .carousel-caption {
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    bottom: 50px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 35%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 20px;
+    margin: 6px;
+  }
+  .carousel-caption p {
+    line-height: 1.38;
+  }
+}
+/* Medium Screen */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    color: #080;
+    transition: all 2s ease-in-out;
+  }
+
+  .carousel-caption {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+/* Large Screen */
+
+@media (min-width: 1200px) {
+  h1 {
+    color: #000;
+    transition: all 2s ease-in-out;
+  }
+}
